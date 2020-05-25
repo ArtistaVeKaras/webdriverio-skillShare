@@ -1,0 +1,186 @@
+{
+  "uid" : "b89e3248e57ad1b3",
+  "name" : "should have the right title",
+  "fullName" : "Google Page.should have the right title",
+  "historyId" : "f0bf03f145c45c48e5a1370ed41bb246",
+  "time" : {
+    "start" : 1590389137929,
+    "stop" : 1590389142140,
+    "duration" : 4211
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1590389137934,
+        "stop" : 1590389142062,
+        "duration" : 4128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15f8a1b95df8be87",
+        "name" : "Request",
+        "source" : "15f8a1b95df8be87.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1590389142062,
+        "stop" : 1590389142138,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/title",
+        "time" : {
+          "start" : 1590389142063,
+          "stop" : 1590389142137,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8bec016119d53af2",
+          "name" : "Screenshot",
+          "source" : "8bec016119d53af2.png",
+          "type" : "image/png",
+          "size" : 36960
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6aa523e68c7d1e28",
+        "name" : "Response",
+        "source" : "6aa523e68c7d1e28.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1590389142142,
+        "stop" : 0,
+        "duration" : -1590389142142
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ac013b4c16df09cc",
+      "name" : "Execution video",
+      "source" : "ac013b4c16df09cc.mp4",
+      "type" : "video/mp4",
+      "size" : 12671
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Google Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74471a443582eb59",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)",
+      "time" : {
+        "start" : 1590388862459,
+        "stop" : 1590388922519,
+        "duration" : 60060
+      }
+    }, {
+      "uid" : "7822440d093072b2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)",
+      "time" : {
+        "start" : 1590388559115,
+        "stop" : 1590388619154,
+        "duration" : 60039
+      }
+    }, {
+      "uid" : "6af7e20f9564578b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387689583,
+        "stop" : 1590387692927,
+        "duration" : 3344
+      }
+    }, {
+      "uid" : "f68b147f6b125a15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387372002,
+        "stop" : 1590387390448,
+        "duration" : 18446
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b89e3248e57ad1b3.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

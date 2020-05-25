@@ -1,0 +1,48 @@
+{
+  "uid" : "503a5db22e68b0c5",
+  "name" : "show the first tab content on page load",
+  "fullName" : "Tabs:.show the first tab content on page load",
+  "historyId" : "e29041ff5c4515643eb44f2a7026aab1",
+  "time" : {
+    "start" : 1590387390506,
+    "stop" : 1590387390506,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testClass",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testMethod",
+    "value" : "show the first tab content on page load"
+  }, {
+    "name" : "package",
+    "value" : "Tabs:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "503a5db22e68b0c5.json",
+  "parameterValues" : [ ]
+}

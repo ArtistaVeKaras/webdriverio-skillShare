@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590387372009' stop='1590387393765'>
+    <name>Tabs:</name>
+    <title>Tabs:</title>
+    <test-cases>
+        <test-case start='1590387372013' status='broken' stop='1590387390495'>
+            <name>shows the first tab on page load</name>
+            <title>shows the first tab on page load</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.129'/>
+            </parameters>
+            <steps>
+                <step start='1590387372019' status='passed' stop='1590387390415'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1590387372035' status='passed' stop='1590387390413'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a75861ca-31f4-4c94-b5da-de27787015be-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1590387390420' status='passed' stop='1590387390464'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1ee6a849-dde6-454e-bf45-de3ae5b7d04a-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='5c3251c5-dc44-47aa-be73-3748045259c9-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>tabList.$ is not a function</message>
+                <stack-trace>TypeError: tabList.$ is not a function
+                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:11:24)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1590387390506' status='pending' stop='1590387390506'>
+            <name>show the first tab content on page load</name>
+            <title>show the first tab content on page load</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1590387390506' status='broken' stop='1590387392453'>
+            <name>displays black header of the fiest tab</name>
+            <title>displays black header of the fiest tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.129'/>
+            </parameters>
+            <steps>
+                <step start='1590387390507' status='passed' stop='1590387392403'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1590387390508' status='passed' stop='1590387392403'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='4e743062-eaeb-4703-93d6-057541f1dbcf-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1590387392405' status='passed' stop='1590387392439'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0cdcc4b0-149a-4285-b6d8-53db8e0560a8-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='187cf414-ca15-4bb1-b7ed-cfb1587511c9-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property '$' of undefined</message>
+                <stack-trace>TypeError: Cannot read property '$' of undefined
+                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:24:35)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1590387392453' status='broken' stop='1590387393764'>
+            <name>the second tab becomes active when clicj on fancy tab</name>
+            <title>the second tab becomes active when clicj on fancy tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.129'/>
+            </parameters>
+            <steps>
+                <step start='1590387392454' status='passed' stop='1590387393761'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1590387392455' status='passed' stop='1590387393759'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='996a8f04-0ec8-4721-ac31-8964d3c89b33-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser is not a function</message>
+                <stack-trace>TypeError: browser is not a function
+                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:29:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

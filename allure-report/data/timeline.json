@@ -1,0 +1,207 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "the second tab becomes active when clicj on fancy tab",
+      "uid" : "dbbf6443f72f5cc1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590387392453,
+        "stop" : 1590387393764,
+        "duration" : 1311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "shows the first tab on page load",
+      "uid" : "6d1a0ac064131144",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590387372013,
+        "stop" : 1590387390495,
+        "duration" : 18482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "displays black header of the fiest tab",
+      "uid" : "be1ba4da6f29d7ff",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590387390506,
+        "stop" : 1590387392453,
+        "duration" : 1947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should have the right title",
+      "uid" : "6af7e20f9564578b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387689583,
+        "stop" : 1590387692927,
+        "duration" : 3344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "74471a443582eb59",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590388862459,
+        "stop" : 1590388922519,
+        "duration" : 60060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "7822440d093072b2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590388559115,
+        "stop" : 1590388619154,
+        "duration" : 60039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "f68b147f6b125a15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387372002,
+        "stop" : 1590387390448,
+        "duration" : 18446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "b89e3248e57ad1b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590389137929,
+        "stop" : 1590389142140,
+        "duration" : 4211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "on page load tooltip is not displayed",
+      "uid" : "b9df6449bac5982a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387372003,
+        "stop" : 1590387383013,
+        "duration" : 11010
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "disapers the tooltip on press the escape",
+      "uid" : "c8e949e057492bc1",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387383484,
+        "stop" : 1590387383948,
+        "duration" : 464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    }, {
+      "name" : "should dislpay the tooptip wne button is clicked",
+      "uid" : "b7f95d132f441f16",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590387383016,
+        "stop" : 1590387383484,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "show the first tab content on page load",
+    "uid" : "503a5db22e68b0c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1590387390506,
+      "stop" : 1590387390506,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "renders the next slide on next click",
+      "uid" : "d1d23658abc34897",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590387372003,
+        "stop" : 1590387391482,
+        "duration" : 19479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "should get the text from the iframe",
+      "uid" : "1f42c8fdb1cb833b",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1590387372002,
+        "stop" : 0,
+        "duration" : -1590387372002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-81.0.4044.129" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  } ],
+  "name" : "timeline"
+}

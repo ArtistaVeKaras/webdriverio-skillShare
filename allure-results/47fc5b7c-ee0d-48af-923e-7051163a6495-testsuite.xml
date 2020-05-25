@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590388862456' stop='1590388922536'>
+    <name>Google Page</name>
+    <title>Google Page</title>
+    <test-cases>
+        <test-case start='1590388862459' status='broken' stop='1590388922519'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.129'/>
+            </parameters>
+            <steps>
+                <step start='1590388862463' status='broken' stop='1590388922518'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f4019552-263d-4a44-8ba9-81267e7ea7ff-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1590388922526' status='undefined'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Execution video' source='a8e2091c-55e8-4323-b780-a0491f67f80c-attachment.mp4' type='video/mp4' size='155'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)
+                    at Test.Runnable._timeoutError (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:438:10)
+                    at Timeout.&lt;anonymous> (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:242:24)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

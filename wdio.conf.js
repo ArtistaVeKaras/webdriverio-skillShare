@@ -1,3 +1,6 @@
+// const {TimelineService} = require('wdio-timeline-reporter/timeline-service')
+// const video = require('wdio-video-reporter');
+
 exports.config = {
     //
     // ====================
@@ -114,7 +117,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: ['chromedriver',[TimelineService]],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -133,7 +136,39 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
+
+    // video reporter settings
+    reporters: [[
+        video,{
+            saveAllVideos: true,
+        }
+    ],[
+     'allure', {
+         outputDir: './allure-results',
+         disableMochaHooks: true
+     }
+    ]],
+
+    //timeline reportt settings
+    // reporters:[
+    //     [
+    //     'timeline', {
+    //         outputDir: './timeline-reporter',
+    //         fileName: 'report.html',
+    //         screenshotStrategy: 'before:click'
+    //     }
+    // ]
+    // ],
+
+    //mochawesome report settings
+    // reporters:[[
+        // 'mochawesome',{
+        // outputDir: './Results',
+        // outputFileName: function(opts){
+            // return 'results-${opts.cid}.{opts.capabilities.browserName}.json';
+        //   }
+        // }
+    // ]],
  
     //
     // Options to be passed to Mocha.
@@ -268,8 +303,10 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    onComplete: function(exitCode, config, capabilities, results) {
+        const mergeResults = require('wdio-mochawesome-reporter/mergeResults');
+        mergeResults('Results', "results-*",)
+    },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

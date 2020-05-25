@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590387372003' stop='1590387391483'>
+    <name>Carousell</name>
+    <title>Carousell</title>
+    <test-cases>
+        <test-case start='1590387372003' status='broken' stop='1590387391482'>
+            <name>renders the next slide on next click</name>
+            <title>renders the next slide on next click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-81.0.4044.129'/>
+            </parameters>
+            <steps>
+                <step start='1590387372004' status='passed' stop='1590387391338'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1590387372022' status='passed' stop='1590387391334'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='cba9fe86-ecdc-4865-8eda-be5f8b8d4f72-attachment.json' type='application/json' size='69'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1590387391347' status='passed' stop='1590387391384'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ee580006-936b-4d65-902f-8f7955e371e6-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='d0e80975-efd6-4db3-9902-3b1a33171ab0-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1590387391412' status='passed' stop='1590387391460'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='07ca018d-ffe6-4498-9bd1-1125dac8f25e-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='5a31dae3-9a89-48e3-95c5-ec2fcd67b403-attachment.json' type='application/json' size='143'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>carouselElements is not defined</message>
+                <stack-trace>ReferenceError: carouselElements is not defined
+                    at Browser.browser.addCommand (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:2:5)
+                    at Browser.next [as getActiveSlide] (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/@wdio/runner/node_modules/@wdio/utils/build/monad.js:116:27)
+                    at Context.it.only (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:37:41)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

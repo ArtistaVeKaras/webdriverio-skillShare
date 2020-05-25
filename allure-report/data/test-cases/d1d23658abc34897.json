@@ -1,0 +1,166 @@
+{
+  "uid" : "d1d23658abc34897",
+  "name" : "renders the next slide on next click",
+  "fullName" : "Carousell.renders the next slide on next click",
+  "historyId" : "b210e7929d198de88b6e1540fbe005f2",
+  "time" : {
+    "start" : 1590387372003,
+    "stop" : 1590387391482,
+    "duration" : 19479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "carouselElements is not defined",
+  "statusTrace" : "ReferenceError: carouselElements is not defined\n                    at Browser.browser.addCommand (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:2:5)\n                    at Browser.next [as getActiveSlide] (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/@wdio/runner/node_modules/@wdio/utils/build/monad.js:116:27)\n                    at Context.it.only (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:37:41)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "carouselElements is not defined",
+    "statusTrace" : "ReferenceError: carouselElements is not defined\n                    at Browser.browser.addCommand (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:2:5)\n                    at Browser.next [as getActiveSlide] (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/@wdio/runner/node_modules/@wdio/utils/build/monad.js:116:27)\n                    at Context.it.only (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/carossel.spec.js:37:41)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1590387372004,
+        "stop" : 1590387391338,
+        "duration" : 19334
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1590387372022,
+          "stop" : 1590387391334,
+          "duration" : 19312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "18426835c73fbcc4",
+          "name" : "Request",
+          "source" : "18426835c73fbcc4.json",
+          "type" : "application/json",
+          "size" : 69
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1590387391347,
+        "stop" : 1590387391384,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46bef24f6cf79472",
+        "name" : "Request",
+        "source" : "46bef24f6cf79472.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "e5dd5dd373bfcd90",
+        "name" : "Response",
+        "source" : "e5dd5dd373bfcd90.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1590387391412,
+        "stop" : 1590387391460,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "918053620b63af45",
+        "name" : "Request",
+        "source" : "918053620b63af45.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "c12cddf1cb5b3787",
+        "name" : "Response",
+        "source" : "c12cddf1cb5b3787.json",
+        "type" : "application/json",
+        "size" : 143
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Carousell"
+  }, {
+    "name" : "testClass",
+    "value" : "Carousell"
+  }, {
+    "name" : "testMethod",
+    "value" : "renders the next slide on next click"
+  }, {
+    "name" : "package",
+    "value" : "Carousell"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d1d23658abc34897.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

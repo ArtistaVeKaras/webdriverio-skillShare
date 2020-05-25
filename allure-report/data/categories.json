@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "carouselElements is not defined",
+      "children" : [ {
+        "name" : "renders the next slide on next click",
+        "uid" : "d1d23658abc34897",
+        "parentUid" : "3d7f5b3cd395fd28f785f4844aea6f1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590387372003,
+          "stop" : 1590387391482,
+          "duration" : 19479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-81.0.4044.129" ]
+      } ],
+      "uid" : "3d7f5b3cd395fd28f785f4844aea6f1d"
+    }, {
+      "name" : "tabList.$ is not a function",
+      "children" : [ {
+        "name" : "shows the first tab on page load",
+        "uid" : "6d1a0ac064131144",
+        "parentUid" : "cb374b17cd8a7daefa16bcaf81964915",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590387372013,
+          "stop" : 1590387390495,
+          "duration" : 18482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-81.0.4044.129" ]
+      } ],
+      "uid" : "cb374b17cd8a7daefa16bcaf81964915"
+    }, {
+      "name" : "Cannot read property '$' of undefined",
+      "children" : [ {
+        "name" : "displays black header of the fiest tab",
+        "uid" : "be1ba4da6f29d7ff",
+        "parentUid" : "c571773da6eb8b01f714ee09eab5e354",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590387390506,
+          "stop" : 1590387392453,
+          "duration" : 1947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-81.0.4044.129" ]
+      } ],
+      "uid" : "c571773da6eb8b01f714ee09eab5e354"
+    }, {
+      "name" : "browser is not a function",
+      "children" : [ {
+        "name" : "the second tab becomes active when clicj on fancy tab",
+        "uid" : "dbbf6443f72f5cc1",
+        "parentUid" : "16fcb235044cbd447e6a5a3b4764f223",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590387392453,
+          "stop" : 1590387393764,
+          "duration" : 1311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-81.0.4044.129" ]
+      } ],
+      "uid" : "16fcb235044cbd447e6a5a3b4764f223"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

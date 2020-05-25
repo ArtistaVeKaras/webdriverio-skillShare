@@ -1,0 +1,112 @@
+{
+  "uid" : "dbbf6443f72f5cc1",
+  "name" : "the second tab becomes active when clicj on fancy tab",
+  "fullName" : "Tabs:.the second tab becomes active when clicj on fancy tab",
+  "historyId" : "f7010da8ff1e4a4f977dec66435ce545",
+  "time" : {
+    "start" : 1590387392453,
+    "stop" : 1590387393764,
+    "duration" : 1311
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser is not a function",
+  "statusTrace" : "TypeError: browser is not a function\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:29:27)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser is not a function",
+    "statusTrace" : "TypeError: browser is not a function\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:29:27)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1590387392454,
+        "stop" : 1590387393761,
+        "duration" : 1307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1590387392455,
+          "stop" : 1590387393759,
+          "duration" : 1304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c7494cc64efaf789",
+          "name" : "Request",
+          "source" : "c7494cc64efaf789.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testClass",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testMethod",
+    "value" : "the second tab becomes active when clicj on fancy tab"
+  }, {
+    "name" : "package",
+    "value" : "Tabs:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dbbf6443f72f5cc1.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

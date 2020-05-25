@@ -1,0 +1,139 @@
+{
+  "uid" : "6d1a0ac064131144",
+  "name" : "shows the first tab on page load",
+  "fullName" : "Tabs:.shows the first tab on page load",
+  "historyId" : "feb527801039472d3ae46d23bdf4aedd",
+  "time" : {
+    "start" : 1590387372013,
+    "stop" : 1590387390495,
+    "duration" : 18482
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "tabList.$ is not a function",
+  "statusTrace" : "TypeError: tabList.$ is not a function\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:11:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "tabList.$ is not a function",
+    "statusTrace" : "TypeError: tabList.$ is not a function\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:11:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1590387372019,
+        "stop" : 1590387390415,
+        "duration" : 18396
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1590387372035,
+          "stop" : 1590387390413,
+          "duration" : 18378
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6de7a95aa0bee088",
+          "name" : "Request",
+          "source" : "6de7a95aa0bee088.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1590387390420,
+        "stop" : 1590387390464,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3a98edad9d3fcc1",
+        "name" : "Request",
+        "source" : "c3a98edad9d3fcc1.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "78a4dacfa4035842",
+        "name" : "Response",
+        "source" : "78a4dacfa4035842.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testClass",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testMethod",
+    "value" : "shows the first tab on page load"
+  }, {
+    "name" : "package",
+    "value" : "Tabs:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6d1a0ac064131144.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

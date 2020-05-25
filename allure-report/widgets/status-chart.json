@@ -1,0 +1,101 @@
+[ {
+  "uid" : "b9df6449bac5982a",
+  "name" : "on page load tooltip is not displayed",
+  "time" : {
+    "start" : 1590387372003,
+    "stop" : 1590387383013,
+    "duration" : 11010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbbf6443f72f5cc1",
+  "name" : "the second tab becomes active when clicj on fancy tab",
+  "time" : {
+    "start" : 1590387392453,
+    "stop" : 1590387393764,
+    "duration" : 1311
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6d1a0ac064131144",
+  "name" : "shows the first tab on page load",
+  "time" : {
+    "start" : 1590387372013,
+    "stop" : 1590387390495,
+    "duration" : 18482
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "503a5db22e68b0c5",
+  "name" : "show the first tab content on page load",
+  "time" : {
+    "start" : 1590387390506,
+    "stop" : 1590387390506,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b7f95d132f441f16",
+  "name" : "should dislpay the tooptip wne button is clicked",
+  "time" : {
+    "start" : 1590387383016,
+    "stop" : 1590387383484,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8e949e057492bc1",
+  "name" : "disapers the tooltip on press the escape",
+  "time" : {
+    "start" : 1590387383484,
+    "stop" : 1590387383948,
+    "duration" : 464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f42c8fdb1cb833b",
+  "name" : "should get the text from the iframe",
+  "time" : {
+    "start" : 1590387372002,
+    "stop" : 0,
+    "duration" : -1590387372002
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "be1ba4da6f29d7ff",
+  "name" : "displays black header of the fiest tab",
+  "time" : {
+    "start" : 1590387390506,
+    "stop" : 1590387392453,
+    "duration" : 1947
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b89e3248e57ad1b3",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1590389137929,
+    "stop" : 1590389142140,
+    "duration" : 4211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1d23658abc34897",
+  "name" : "renders the next slide on next click",
+  "time" : {
+    "start" : 1590387372003,
+    "stop" : 1590387391482,
+    "duration" : 19479
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

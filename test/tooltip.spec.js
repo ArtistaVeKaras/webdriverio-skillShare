@@ -2,6 +2,7 @@ describe('Tooltip:',()=>{
     beforeEach(() =>{
         browser.url('./#/tooltip')
     })
+
     it('on page load tooltip is not displayed',()=>{
         const tooltip = browser.$('ngb-tooltip-window')
         expect(tooltip.isDisplayed()).to.be.false;

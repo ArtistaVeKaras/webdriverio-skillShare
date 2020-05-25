@@ -1,0 +1,76 @@
+{
+  "start": "2020-05-25T06:57:33.960Z",
+  "end": "2020-05-25T06:57:35.796Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "acceptSslCerts": false,
+    "applicationCacheEnabled": false,
+    "browserConnectionEnabled": false,
+    "browserName": "chrome",
+    "chrome": {
+      "chromedriverVersion": "2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.aQVVdu"
+    },
+    "cssSelectorsEnabled": true,
+    "databaseEnabled": false,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:37587"
+    },
+    "handlesAlerts": true,
+    "hasTouchScreen": false,
+    "javascriptEnabled": true,
+    "locationContextEnabled": true,
+    "mobileEmulationEnabled": false,
+    "nativeEvents": true,
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platform": "Linux",
+    "rotatable": false,
+    "setWindowRect": true,
+    "takesHeapSnapshot": true,
+    "takesScreenshot": true,
+    "unexpectedAlertBehaviour": "",
+    "version": "81.0.4044.129",
+    "webStorageEnabled": true,
+    "webdriver.remote.sessionid": "b58113ab4a55cdba2e9db43837d319f9",
+    "sessionId": "b58113ab4a55cdba2e9db43837d319f9"
+  },
+  "host": "127.0.0.1",
+  "port": 4444,
+  "baseUrl": "https://webdriverio-course-site.netlify.app/",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd"
+  },
+  "duration": 1836,
+  "suites": [
+    {
+      "title": "Google Page",
+      "duration": 1774,
+      "start": "2020-05-25T06:57:33.966Z",
+      "end": "2020-05-25T06:57:35.740Z",
+      "tests": [
+        {
+          "title": "should have the right title",
+          "start": "2020-05-25T06:57:33.967Z",
+          "end": "2020-05-25T06:57:35.739Z",
+          "duration": 1772,
+          "state": "passed",
+          "screenshots": [
+            "/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/timeline-reporter/file-1590389855738.jpeg"
+          ]
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

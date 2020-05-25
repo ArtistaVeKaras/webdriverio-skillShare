@@ -1,0 +1,139 @@
+{
+  "uid" : "be1ba4da6f29d7ff",
+  "name" : "displays black header of the fiest tab",
+  "fullName" : "Tabs:.displays black header of the fiest tab",
+  "historyId" : "a03d09dfbdd1858476696cbff3b6f09c",
+  "time" : {
+    "start" : 1590387390506,
+    "stop" : 1590387392453,
+    "duration" : 1947
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property '$' of undefined",
+  "statusTrace" : "TypeError: Cannot read property '$' of undefined\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:24:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property '$' of undefined",
+    "statusTrace" : "TypeError: Cannot read property '$' of undefined\n                    at Context.it (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/tabs.spec.js:24:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1590387390507,
+        "stop" : 1590387392403,
+        "duration" : 1896
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1590387390508,
+          "stop" : 1590387392403,
+          "duration" : 1895
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "204fb673b5977deb",
+          "name" : "Request",
+          "source" : "204fb673b5977deb.json",
+          "type" : "application/json",
+          "size" : 59
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1590387392405,
+        "stop" : 1590387392439,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5220e067e681a04",
+        "name" : "Request",
+        "source" : "5220e067e681a04.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "6f2bb70b3f835e59",
+        "name" : "Response",
+        "source" : "6f2bb70b3f835e59.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testClass",
+    "value" : "Tabs:"
+  }, {
+    "name" : "testMethod",
+    "value" : "displays black header of the fiest tab"
+  }, {
+    "name" : "package",
+    "value" : "Tabs:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be1ba4da6f29d7ff.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

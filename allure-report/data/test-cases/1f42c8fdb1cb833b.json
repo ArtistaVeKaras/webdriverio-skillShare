@@ -1,0 +1,104 @@
+{
+  "uid" : "1f42c8fdb1cb833b",
+  "name" : "should get the text from the iframe",
+  "fullName" : "Iframe.should get the text from the iframe",
+  "historyId" : "1ec8d8b4c22873d4461c89ac6d528bd",
+  "time" : {
+    "start" : 1590387372002,
+    "stop" : 0,
+    "duration" : -1590387372002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1590387372003,
+        "stop" : 0,
+        "duration" : -1590387372003
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1590387372025,
+          "stop" : 1590387432062,
+          "duration" : 60037
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6ad72d4a66d5bf69",
+          "name" : "Request",
+          "source" : "6ad72d4a66d5bf69.json",
+          "type" : "application/json",
+          "size" : 67
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Iframe"
+  }, {
+    "name" : "testClass",
+    "value" : "Iframe"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the text from the iframe"
+  }, {
+    "name" : "package",
+    "value" : "Iframe"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f42c8fdb1cb833b.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}

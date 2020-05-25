@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should get the text from the iframe",
+    "uid" : "1f42c8fdb1cb833b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1590387372002,
+      "stop" : 0,
+      "duration" : -1590387372002
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "on page load tooltip is not displayed",
+    "uid" : "b9df6449bac5982a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590387372003,
+      "stop" : 1590387383013,
+      "duration" : 11010
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "renders the next slide on next click",
+    "uid" : "d1d23658abc34897",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1590387372003,
+      "stop" : 1590387391482,
+      "duration" : 19479
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "shows the first tab on page load",
+    "uid" : "6d1a0ac064131144",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1590387372013,
+      "stop" : 1590387390495,
+      "duration" : 18482
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "should dislpay the tooptip wne button is clicked",
+    "uid" : "b7f95d132f441f16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590387383016,
+      "stop" : 1590387383484,
+      "duration" : 468
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "disapers the tooltip on press the escape",
+    "uid" : "c8e949e057492bc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590387383484,
+      "stop" : 1590387383948,
+      "duration" : 464
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "show the first tab content on page load",
+    "uid" : "503a5db22e68b0c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1590387390506,
+      "stop" : 1590387390506,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "displays black header of the fiest tab",
+    "uid" : "be1ba4da6f29d7ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1590387390506,
+      "stop" : 1590387392453,
+      "duration" : 1947
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "the second tab becomes active when clicj on fancy tab",
+    "uid" : "dbbf6443f72f5cc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1590387392453,
+      "stop" : 1590387393764,
+      "duration" : 1311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  }, {
+    "name" : "should have the right title",
+    "uid" : "b89e3248e57ad1b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590389137929,
+      "stop" : 1590389142140,
+      "duration" : 4211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-81.0.4044.129" ]
+  } ],
+  "name" : "behaviors"
+}

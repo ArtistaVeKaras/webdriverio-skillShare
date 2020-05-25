@@ -1,0 +1,113 @@
+{
+  "uid" : "74471a443582eb59",
+  "name" : "should have the right title",
+  "fullName" : "Google Page.should have the right title",
+  "historyId" : "f0bf03f145c45c48e5a1370ed41bb246",
+  "time" : {
+    "start" : 1590388862459,
+    "stop" : 1590388922519,
+    "duration" : 60060
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)\n                    at Test.Runnable._timeoutError (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:438:10)\n                    at Timeout.<anonymous> (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:242:24)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)",
+    "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)\n                    at Test.Runnable._timeoutError (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:438:10)\n                    at Timeout.<anonymous> (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:242:24)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1590388862463,
+        "stop" : 1590388922518,
+        "duration" : 60055
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/test/basic.spec.js)\n                    at Test.Runnable._timeoutError (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:438:10)\n                    at Timeout.<anonymous> (/home/claudio/Documents/GitProj/webdriverio/webdriverio-skillshare/node_modules/mocha/lib/runnable.js:242:24)\n                    at ontimeout (timers.js:498:11)\n                    at tryOnTimeout (timers.js:323:5)\n                    at Timer.listOnTimeout (timers.js:290:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78a305b0cfa4a2f0",
+        "name" : "Request",
+        "source" : "78a305b0cfa4a2f0.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1590388922526,
+        "stop" : 0,
+        "duration" : -1590388922526
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8f5a892d9089e7e7",
+      "name" : "Execution video",
+      "source" : "8f5a892d9089e7e7.mp4",
+      "type" : "video/mp4",
+      "size" : 4404
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Google Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Google Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Google Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-81.0.4044.129"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74471a443582eb59.json",
+  "parameterValues" : [ "chrome-81.0.4044.129" ]
+}
