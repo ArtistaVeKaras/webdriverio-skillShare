@@ -1,2 +1,7 @@
 .vscode
 /node_modules
+_results_
+.vscode
+allure-reporter
+allure-result
+json-report
